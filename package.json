@@ -26,10 +26,10 @@
   "dependencies": {
     "async": "^0.9.0",
     "bip38": "^1.3.0",
-    "bitcore-lib": "^0.14.0",
-    "bitcore-mnemonic": "^1.2.2",
-    "bitcore-payment-protocol": "^1.2.2",
+    "bitcore-mnemonic": "git+https://github.com/bitpay/bitcore-mnemonic.git#pull/61/head",
+    "bitcore-payment-protocol": "^1.7.0",
     "json-stable-stringify": "^1.0.0",
+    "litecore-lib": "^0.13.22",
     "lodash": "^3.3.1",
     "preconditions": "^1.0.8",
     "sjcl": "1.0.3",
@@ -57,11 +57,14 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "docs": "./node_modules/.bin/jsdox lib/* lib/common lib/errors -o docs && cat README.header.md  docs/*.md LICENSE > README.md"
   },
-  "contributors": [{
-    "name": "Ivan Socolsky",
-    "email": "ivan@bitpay.com"
-  }, {
-    "name": "Matias Alejo Garcia",
-    "email": "ematiu@gmail.com"
-  }]
+  "contributors": [
+    {
+      "name": "Ivan Socolsky",
+      "email": "ivan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    }
+  ]
 }
