@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-wallet-client",
+  "name": "litecore-wallet-client",
   "description": "Client for bitcore-wallet-service",
   "author": "BitPay Inc",
   "version": "5.2.0",
